@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+    <script type="text/javascript">
+    	function hitung(nilai1, nilai2,oprt) {
+    		if(oprt == "+"){
+    			console.log(nilai1 + nilai2);
+    		} else if (oprt == "-") {
+                console.log(nilai1 - nilai2);
+    		} else if (oprt == "/") {
+    			console.log(nilai1 / nilai2)
+    		}else{
+    			console.log('silahkan coba kembali')
+    		}
+    	}
+
+    	hitung(20, 10, "/");
+
+
+
+    	function sayHello(...name) {
+    		console.log(`Hallo Perkenalkan Nama Saya ${name}`);
+    	}
+
+    	sayHello('Udin', 'Adisya', 'Rifki', 'Arif', 'Wahyu');
+
+    	const test = function () {
+    		console.log('Ini function Expression');
+    	}
+
+    	test();
+
+    	const function2 = () => {
+    		console.log('Ini Arrow EXpression');
+    	}
+
+    	function2();
+    </script>
+</body>
+</html>
